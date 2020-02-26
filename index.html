@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="content">
+          <!--animation by Shinsuke Matsumoto in Walking Guys on Nov 24, 2014 | https://dribbble.com/shots/1820812-Fat-Boy-Walking-gifhttps://dribbble.com/shots/1697984-Going-for-a-Spin-->
+        <div id="run"></div>
+        <h2 id="title">Calcule seu IMC</h2>
+        <input id="peso" type="text" placeholder="Peso"/><br/>
+        <input id="altura" type="text" placeholder="Altura"/><br/>
+        <input type="button" value="CALCULAR" onclick="calc()" /><br />
+        <div id="message"></div>
+
+        <footer class="rodape">
+            <!--<div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+            </div> -->
+            <u class="copyright">Copyright &copy; sozinho 2019 Todos direitos reservados.</u>
+        </footer>
+    </div>
+    
+    
+    <!--<script>
+        let p = window.prompt('Qual o seu peso?')
+        let h = window.prompt('Qual a sua altura?')
+        let imc = p / (h * h)
+
+        document.write(`Seu IMC é <strong>${imc}</strong>!<br/>`)
+        if(imc < 18.5){
+            document.write(`<h1> Você está abaixo do peso! </h1>`)
+        }else if(imc > 18.5 && imc < 25){
+            document.write(`<h1> Seu peso está normal! Parabéns</h1>`)
+        }else if(imc > 25 && imc < 30){
+            document.write(`<h1> Você está acima ddo peso!</h1>`)
+        }else if(imc > 30){
+            document.write(`<h1> Você está com Obsidade morbida</h1>`)
+        }
+
+    </script>-->
+
+</body>
+</html>

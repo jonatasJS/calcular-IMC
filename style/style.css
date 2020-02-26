@@ -1,0 +1,265 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #009885;
+  font-family: 'Indie Flower', cursive;
+}
+#run {
+  position: absolute;
+  top: -269px;
+  left: -623px;
+  z-index: -999;
+  width: 610px;
+  height: 580px;
+  background-image:  url(https://cdn.dribbble.com/users/207059/screenshots/1820812/fatboywalkingdribbble2.gif);
+  background-repeat: no-repeat;
+}
+footer {
+  text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 70px;
+}
+#content {
+  padding: 0px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -135px;
+  margin-top: -135px;
+}
+
+/*text{
+  text-align: center;
+}*/
+
+input[type='text'] {
+  font-family: 'Indie Flower', cursive;
+  /*text-align: center;*/
+  width: 263px;
+  padding: 0 0 0 15px;
+  margin: 0 auto;
+  width: 250px;
+  height: 45px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 3px;
+  padding: 0 0 0 15px;
+  font-size: 22px;
+  color: #ffffff;
+  margin-left: 41px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+input[type="button"] {
+  font-family: 'Indie Flower', cursive;
+  width: 263px;
+  padding: 0 0 0 15px;
+  margin: 0 auto;
+  display: table;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size: 23px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #009885;
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+:-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+::-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+#message {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#title {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+/*responsivo*/
+@media screen and (min-width: 320px){
+    #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+  input[type='text'] {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 375px){
+    #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+  input[type='text'] {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 425px){
+    #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+  input[type='text'] {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 768px){
+    #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -125px;
+  }
+  input[type='text'] {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 1440px){
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 610px;
+    height: 580px;
+    background-image: url(https://cdn.dribbble.com/users/207059/screenshots/1820812/fatboywalkingdribbble2.gif);
+    background-repeat: no-repeat;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -125px;
+  }
+  input[type='text'] {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 1024px){
+    #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+  #content {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -125px;
+  }
+  input[type='text'] {
+    margin-left: 40px;
+  }
+}
+
+/*rodape
+.rodape {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  background: linear-gradient(to right, #00584e, #008677);
+}
+.social-icons a {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 3%;
+}
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.social-icons a:hover {
+  color: rgb(255, 255, 255);
+}
+.copyright {
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.7);
+}*/
