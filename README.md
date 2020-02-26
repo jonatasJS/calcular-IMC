@@ -1,6 +1,6 @@
 # Calculadora de IMC
 
-Basicamente ele pede seu peso e altura, e faz seus calculos e dis o resultado do seu IMC na tela para você.
+Olá, venho trazer um site que basicamente ele pede seu peso e altura, e faz seus calculos e dis o resultado do seu IMC na tela para você.
 Além disto, ele informa se você está abaixo, beso normal, acima do peso ou em estado de oesidade.
 O código é livre, todos podem edita-ló. Assim todos aprendemos juntos e nos ajuda e algo que estamos com duvidas.
 
