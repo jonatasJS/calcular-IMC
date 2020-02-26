@@ -9,7 +9,7 @@ O código é livre, todos podem edita-ló. Assim todos aprendemos juntos e nos a
 ### Como colocar em pratica
 
 * Primerio clone ou baixe o reposutório git para o seu PC.
-* Depois clique em ```index.html``` ou baixe o ``xampp`` e o configure para visualizar a página.
+* Depois clique em ```index.html``` ou baixe o ```xampp``` e o configure para visualizar a página.
 * Em seguida coloque seu peso e sua altura.
 
 ![colocar](https://github.com/AG-Bots/calcular-IMC/blob/master/colocar.png)
