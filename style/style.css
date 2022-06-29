@@ -15,7 +15,7 @@ body {
   z-index: -999;
   width: 610px;
   height: 580px;
-  background-image:  url("https://jonatasjs.github.io/calcular-IMC/caminhada.gif");
+  background-image: url("https://jonatasjs.github.io/calcular-IMC/caminhada.gif");
   background-repeat: no-repeat;
 }
 footer {
